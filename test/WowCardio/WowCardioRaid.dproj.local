@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/12/18 10:34:32.453.pas,E:\Developpement\Delphi2009\Dev\Projets\_WowCardioRaid\FastMM4.pas=</Transaction>
+    <Transaction>2014/01/12 19:51:56.247.pas,D:\Dev\Projets\_WowCardioRaid\wcr_transcriptor.pas=</Transaction>
+    <Transaction>2014/01/31 19:48:13.003.pas,D:\Dev\Projets\_WowCardioRaid\Unit1.pas=D:\Dev\Projets\_WowCardioRaid\wcr_replay.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="wcr_AddLine.pas"/>
+    <File Path="wcr_AddLine.dfm"/>
+    <File Path="wcr_Const.pas"/>
+    <File Path="wcr_error.pas"/>
+    <File Path="wcr_error.dfm"/>
+    <File Path="wcr_exportstat.pas"/>
+    <File Path="wcr_exportstat.dfm"/>
+    <File Path="wcr_Hash.pas"/>
+    <File Path="wcr_Hint.pas"/>
+    <File Path="wcr_hintdatas.pas"/>
+    <File Path="wcr_Html.pas"/>
+    <File Path="wcr_Main.pas"/>
+    <File Path="wcr_Main.dfm"/>
+    <File Path="wcr_options.pas"/>
+    <File Path="wcr_options.dfm"/>
+    <File Path="wcr_Parser_Events.pas"/>
+    <File Path="wcr_replay.pas"/>
+    <File Path="wcr_ressource.pas"/>
+    <File Path="wcr_saveopt.pas"/>
+    <File Path="wcr_saveopt.dfm"/>
+    <File Path="wcr_Spelllist.pas"/>
+    <File Path="wcr_Spelllist.dfm"/>
+    <File Path="wcr_spellOpt.pas"/>
+    <File Path="wcr_spellOpt.dfm"/>
+    <File Path="wcr_Stats.pas"/>
+    <File Path="wcr_Unitlist.pas"/>
+    <File Path="wcr_Unitlist.dfm"/>
+    <File Path="wcr_unitOpt.pas"/>
+    <File Path="wcr_unitOpt.dfm"/>
+    <File Path="wcr_utils.pas"/>
+    <File Path="wcr_VirtualBoss.pas"/>
+    <File Path="wcr_VirtualBoss.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

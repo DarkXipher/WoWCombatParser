@@ -1,0 +1,149 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{ACC62513-5095-4D92-9028-DF73D398179D}</ProjectGuid>
+			<MainSource>WowCardioRaid.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Débogage</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Débogage' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>WowCardioRaid.exe</DCC_DependencyCheckOutputName>
+			<DCC_Description>Virtual Treeview</DCC_Description>
+			<DCC_UsePackage>vcl;rtl;vclx;indy;inet;xmlrtl;vclie;inetdbbde;inetdbxpress;dbrtl;dsnap;dsnapcon;vcldb;soaprtl;VclSmp;dbexpress;dbxcds;inetdb;bdertl;vcldbx;webdsnap;websnap;adortl;ibxpress;teeui;teedb;tee;dss;visualclx;visualdbclx;vclactnband;vclshlctrls;IntrawebDB_50_70;Intraweb_50_70;Rave50CLX;Rave50VCL;dclaxserver</DCC_UsePackage>
+			<DCC_ImageBase>30400000</DCC_ImageBase>
+			<DCC_RangeChecking>true</DCC_RangeChecking>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_DcpOutput>..\..\_Compil\</DCC_DcpOutput>
+			<DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="WowCardioRaid.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="wcr_Main.pas">
+				<Form>Form1</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_Parser_Events.pas"/>
+			<DCCReference Include="wcr_Const.pas"/>
+			<DCCReference Include="wcr_spellOpt.pas">
+				<Form>Form2</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_Hint.pas"/>
+			<DCCReference Include="wcr_unitOpt.pas">
+				<Form>Form3</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_utils.pas"/>
+			<DCCReference Include="wcr_hintdatas.pas"/>
+			<DCCReference Include="wcr_Stats.pas"/>
+			<DCCReference Include="wcr_ressource.pas"/>
+			<DCCReference Include="wcr_exportstat.pas">
+				<Form>Form4</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_saveopt.pas">
+				<Form>Form5</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_Unitlist.pas">
+				<Form>Form7</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_VirtualBoss.pas">
+				<Form>Form8</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_AddLine.pas">
+				<Form>Form6</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_Spelllist.pas">
+				<Form>FormSpell</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_options.pas">
+				<Form>OptionsForm</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_error.pas">
+				<Form>Form9</Form>
+			</DCCReference>
+			<DCCReference Include="wcr_transcriptor.pas"/>
+			<DCCReference Include="wcr_Html.pas"/>
+			<DCCReference Include="wcr_Hash.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Débogage">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">WowCardioRaid.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Language>
+						<Language Name="RootDir">..\..\..\Documents\RAD Studio\Projets\_WowCardioRaid\</Language>
+					</Language>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">4</VersionInfo>
+						<VersionInfo Name="Build">686</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1036</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription">WowCardioRaid - wow raid analyser</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.0.4.686</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright">Tixu</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">n/a</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">WowCardioRaid</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">WowCardioRaid</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.0.0.1</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">tixu.scribe@gmail.com</VersionInfoKeys>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>
