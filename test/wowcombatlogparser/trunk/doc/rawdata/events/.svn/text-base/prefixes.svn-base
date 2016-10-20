@@ -1,0 +1,8 @@
+Prefixes
+The Parameters listed with prefixes are numbered in the order they come after the base 8 parameters.
+Prefix	       1st param          2nd param     3rd param
+SWING
+RANGE           spellId            spellName     spellSchool
+SPELL           spellId	           spellName     spellSchool
+SPELL_PERIODIC	 spellId            spellName     spellSchool
+ENVIRONMENTAL   environmentalType

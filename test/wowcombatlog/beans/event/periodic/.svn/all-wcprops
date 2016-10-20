@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic
+END
+PeriodicLeechEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicLeechEvent.java
+END
+PeriodicEnergizeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicEnergizeEvent.java
+END
+PeriodicHealEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicHealEvent.java
+END
+PeriodicMissEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicMissEvent.java
+END
+PeriodicDrainEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicDrainEvent.java
+END
+PeriodicDamageEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicDamageEvent.java
+END
+PeriodicEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/periodic/PeriodicEvent.java
+END

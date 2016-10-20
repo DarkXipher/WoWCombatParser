@@ -1,0 +1,80 @@
+10
+
+dir
+13
+http://wowcombatlogparser.googlecode.com/svn/trunk/src/main/java/wowcombatlog/beans/event
+http://wowcombatlogparser.googlecode.com/svn
+
+
+
+2008-07-10T18:06:43.273265Z
+12
+polaco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4494a167-9d51-0410-bcaf-236e7d9db016
+
+periodic
+dir
+
+spell
+dir
+
+ranged
+dir
+
+special
+dir
+
+Event.java
+file
+
+
+
+
+2016-02-17T02:54:43.933221Z
+db7d4bfe921a1be83504b1b709234c32
+2008-07-10T18:06:43.273265Z
+12
+polaco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2953
+
+enviromental
+dir
+
+swing
+dir
+

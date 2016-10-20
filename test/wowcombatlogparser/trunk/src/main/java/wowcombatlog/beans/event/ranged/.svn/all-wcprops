@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/ranged
+END
+RangedMissEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/ranged/RangedMissEvent.java
+END
+RangedDamageEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/ranged/RangedDamageEvent.java
+END
+RangedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/src/main/java/wowcombatlog/beans/event/ranged/RangedEvent.java
+END

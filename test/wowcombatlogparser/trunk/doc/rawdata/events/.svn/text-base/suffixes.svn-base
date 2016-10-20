@@ -1,0 +1,26 @@
+Suffixes
+The Parameters listed with suffixes are numbered in the order they come after the prefix parameters.
+Suffix                  1st Param     2nd Param       3rd Param    4th Param  5th Param  6th Param  7th Param            8th Param
+_DAMAGE                 amount        school          resisted     blocked    absorbed   critical   glancing (1 or nil)  crushing (1 or nil)
+_MISSED                 missType
+_HEAL                   amount        critical
+_ENERGIZE               amount        powerType
+_DRAIN                  amount        powerType       extraAmount  
+_LEECH                  amount        powerType       extraAmount
+_INTERRUPT              extraSpellID  extraSpellName  extraSchool
+_DISPEL_FAILED          extraSpellID  extraSpellName  extraSchool
+_AURA_DISPELLED         extraSpellID  extraSpellName  extraSchool   auraType
+_AURA_STOLEN            extraSpellID  extraSpellName  extraSchool   auraType
+_EXTRA_ATTACKS          amount
+_AURA_APPLIED           auraType
+_AURA_REMOVED           auraType
+_AURA_APPLIED_DOSE      auraType      amount
+_AURA_REMOVED_DOSE      auraType      amount
+_CAST_START
+_CAST_SUCCESS
+_CAST_FAILED            failedType
+_INSTAKILL
+_DURABILITY_DAMAGE
+_DURABILITY_DAMAGE_ALL
+_CREATE
+_SUMMON

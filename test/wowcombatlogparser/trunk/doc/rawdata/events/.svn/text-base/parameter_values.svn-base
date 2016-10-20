@@ -1,0 +1,20 @@
+Parameter Values
+
+Spell School
+spellSchool	school	Type
+0x01        1        physical
+0x02        2        holy
+0x04        4        fire
+0x08        8        nature
+0x10        16       frost
+0x20        32       shadow
+0x40        64       arcane
+
+Power Type
+powerType	Type
+-2          health
+0           mana
+1           rage
+2           focus
+3           energy
+4           pet happiness
